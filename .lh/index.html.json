@@ -1,0 +1,26 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1761275789232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1761275795572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n     <!--This is the best website ever-->\n <h1>I like Pizza!</h1>\n <hr>\n-  <h1>I like Pizza!!</h1> \n+  <h1>I like Pizza!!!</h1> \n   <br>\n   <h2>I like Pizza!</h2>\n   <br>\n   <h3>I like Pizza!</h3>\n"
+                },
+                {
+                    "date": 1761276288969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n     <!--This is the best website ever-->\n <h1>I like Pizza!</h1>\n <hr>\n-  <h1>I like Pizza!!!</h1> \n+  <h1>I like Pizza!!!!</h1> \n   <br>\n   <h2>I like Pizza!</h2>\n   <br>\n   <h3>I like Pizza!</h3>\n"
+                }
+            ],
+            "date": 1761275789232,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n\n<html>\n\n<head>\n    <title> My first website</title>\n</head>\n<body>\n\n    <!--This is the best website ever-->\n<h1>I like Pizza!</h1>\n<hr>\n  <h1>I like Pizza!!</h1> \n  <br>\n  <h2>I like Pizza!</h2>\n  <br>\n  <h3>I like Pizza!</h3>\n  <br>\n  <h4>I like Pizza!</h4>\n    <br>\n  <h5>I like Pizza!</h5>\n    <br>\n <h6>I like Pizza!</h6>\n\n <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta qui deleniti corrupti aliquid voluptatem laboriosam in ratione eligendi quas sapiente iusto dolorem, exercitationem eos magni dicta, necessitatibus atque fuga! Est?\n<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam pariatur expedita laboriosam molestiae beatae, blanditiis officia, voluptate ducimus impedit tempore sed, soluta reprehenderit dolorem consequuntur quae perspiciatis aspernatur omnis quaerat.</p>  \n </p>\n</body>\n</html>"
+        }
+    ]
+}
