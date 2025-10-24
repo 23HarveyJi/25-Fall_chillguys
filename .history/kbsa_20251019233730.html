@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KBSA — UW-Madison Korean Business Student Association</title>
+  <!-- 시스템 폰트 스택(빠르고 가벼움). 웹폰트 쓰고 싶으면 Google Fonts 링크로 교체 -->
+  <link rel="stylesheet" href=".css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#">
+        <img src="logo.png" alt="KBSA" class="brand__logo" />
+        <span class="brand__name">KBSA</span>
+      </a>
+      <nav class="nav__menu">
+        <a href="#about">소개</a>
+        <a href="#goals">목표</a>
+        <a href="#board">임원진</a>
+        <a class="btn btn--ghost" href="#apply">지원하기</a>
+      </nav>
+      <button class="nav__toggle" aria-label="메뉴 열기">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <h1>KBSA — UW-Madison 한인 비즈니스 학회</h1>
+        <p class="hero__sub">비즈니스 지식과 네트워킹을 함께 키우는 UW-Madison 대표 한인 비즈니스 동아리입니다.</p>
+        <div class="hero__cta">
+          <a href="#apply" class="btn btn--primary">동아리 지원하기 →</a>
+          <a href="#contact" class="btn btn--ghost">문의하기</a>
+        </div>
+        <p class="hero__note">* 링크가 만료되면 인스타그램 @kbsa 로 문의해주세요.</p>
+      </div>
+      <!-- 배경 데코(라이트 스폿) -->
+      <div class="blob blob--1"></div>
+      <div class="blob blob--2"></div>
+    </section>
+
+    <!-- 3 Cards -->
+    <section class="section">
+      <div class="container grid grid--3">
+        <article class="card" id="about">
+          <h3>동아리 소개</h3>
+          <p>1999년부터 이어져 온 UW-Madison의 한인 비즈니스 커뮤니티입니다.</p>
+        </article>
+        <article class="card" id="goals">
+          <h3>동아리 활동</h3>
+          <p>세미나, 프로젝트, 케이스 스터디, 네트워킹, 피크닉 등 다양한 활동을 진행합니다.</p>
+        </article>
+        <article class="card" id="instagram">
+          <h3>인스타그램</h3>
+          <p>소식은 인스타 @kbsa 에서 확인해주세요.</p>
+          <a class="btn btn--soft" href="#" target="_blank" rel="noopener">바로가기</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 임원진 -->
+    <section class="section" id="board">
+      <div class="container">
+        <h2 class="section__title">임원진 소개</h2>
+        <div class="grid grid--4">
+          <div class="card card--person">
+            <img src="president.jpg" alt="회장" />
+            <h4>심의안</h4><p>회장</p>
+          </div>
+          <div class="card card--person">
+            <img src="vp.jpg" alt="부회장" />
+            <h4>정다연</h4><p>부회장</p>
+          </div>
+          <!-- 필요만큼 반복 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 지원 섹션 -->
+    <section class="section" id="apply">
+      <div class="container card card--glass">
+        <h2>지금 지원하기</h2>
+        <p>간단한 폼 작

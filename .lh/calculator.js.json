@@ -1,0 +1,50 @@
+{
+    "sourceFile": "calculator.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1760128248805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760128257116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-//\n\\ No newline at end of file\n+// CALCULATOR PROGRAM\n"
+                },
+                {
+                    "date": 1760128274033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+// CALCULATOR PROGRAM\n+\n+const display = document.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760128287323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,3 @@\n // CALCULATOR PROGRAM\n \n-const display = document.\n-// CALCULATOR PROGRAM\n\\ No newline at end of file\n+const display = document.getElementById('display');\n"
+                },
+                {
+                    "date": 1760128292458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n // CALCULATOR PROGRAM\n \n const display = document.getElementById('display');\n+\n+function append\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760128298123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // CALCULATOR PROGRAM\n \n const display = document.getElementById('display');\n \n-function append\n\\ No newline at end of file\n+function appendToDisplay()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760128304840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // CALCULATOR PROGRAM\n \n const display = document.getElementById('display');\n \n-function appendToDisplay()\n\\ No newline at end of file\n+function appendToDisplay(input)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760128310338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n const display = document.getElementById('display');\n \n function appendToDisplay(input){\n \n-    \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760128322483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+// CALCULATOR PROGRAM\n+\n+const display = document.getElementById('display');\n+\n+function appendToDisplay(input){\n+\n+}\n+\n+function clearDisplay(){\n+    \n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1760128248805,
+            "name": "Commit-0",
+            "content": "//"
+        }
+    ]
+}

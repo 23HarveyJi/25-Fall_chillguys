@@ -1,0 +1,33 @@
+/* style.css — HTML 태그 금지! CSS만 */
+/* style.css */
+body {
+  background-color: #fffbe6;        
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-left-color: silver;
+}
+p {
+  border-style: outset;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+}
+body{
+  background: linear-gradient(to right, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p{
+  background: linear-gradient(to right, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;

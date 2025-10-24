@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Pretendard", sans-serif;
+  background: linear-gradient(120deg, #fff, #ffeaea);
+  color: #222;
+}
+
+.container {
+  max-width: 950px;
+  margin: 70px auto;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  padding: 60px 80px;
+  border-left: 6px solid #b30000;
+}
+
+h1 {
+  color: #b30000;
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #b30000;
+  display: inline-block;
+  margin-top: 40px;
+}

@@ -1,0 +1,250 @@
+{
+    "sourceFile": "CSS.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 58,
+            "patches": [
+                {
+                    "date": 1760081290885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760081297211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,12 @@\n-<\n\\ No newline at end of file\n+<!DOCTYPE html>\n+\n+<html>\n+  <head>\n+    <title>My first Website</title>\n+  </head>\n+  <body>\n+    <a href=\"https://en.wikipedia.org/wiki/Heung Min Son\" target=\"_blank\" title=\"This takes you to Min Gyu Cha's Wikipedia page\">\n+    <img src=\"photo.jpg\"  width=\"300\" alt=\"This is my handsome face\" title=\"I am Min Gyu Cha\"\n+    a>\n+    \n+  </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081304005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <a href=\"https://en.wikipedia.org/wiki/Heung Min Son\" target=\"_blank\" title=\"This takes you to Min Gyu Cha's Wikipedia page\">\n-    <img src=\"photo.jpg\"  width=\"300\" alt=\"This is my handsome face\" title=\"I am Min Gyu Cha\"\n+    \n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081315678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     <title>My first Website</title>\n   </head>\n   <body>\n     \n+    \n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081322381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n     <title>My first Website</title>\n   </head>\n   <body>\n     \n-    \n+    <!---->\n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081337375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,11 @@\n   </head>\n   <body>\n     \n     <!---->\n+        1.Inline\n+        2.Internal\n+        3.External\n+        \n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081343813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,12 @@\n     <title>My first Website</title>\n   </head>\n   <body>\n     \n-    <!---->\n+    <!----\n         1.Inline\n         2.Internal\n         3.External\n-        \n+    <!---->\n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081350888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,12 @@\n     <title>My first Website</title>\n   </head>\n   <body>\n     \n-    <!----\n+    <!---\n         1.Inline\n         2.Internal\n         3.External\n-    <!---->\n+     -->\n     a>\n     \n   </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081355946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,6 @@\n         3.External\n      -->\n     a>\n     \n-  </body>\n\\ No newline at end of file\n+  </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081366730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,7 @@\n         3.External\n      -->\n     a>\n     \n+    \n   </body>\n\\ No newline at end of file\n-</html>\n+  </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081374158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n         3.External\n      -->\n     a>\n     \n-    \n+    <h1>This is my website</h1>\n   </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081381574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,8 @@\n      -->\n     a>\n     \n     <h1>This is my website</h1>\n+\n+    <p></p>\n   </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081393070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,9 @@\n     a>\n     \n     <h1>This is my website</h1>\n \n-    <p></p>\n-  </body>\n+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+  \n+\n+ </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081401440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n     \n     <h1>This is my website</h1>\n \n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-  \n+      \n \n  </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081424377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,15 @@\n         1.Inline\n         2.Internal\n         3.External\n      -->\n-    a>\n     \n+    \n     <h1>This is my website</h1>\n \n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-      \n+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n+\n  </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081456164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n         2.Internal\n         3.External\n      -->\n     \n-    \n     <h1>This is my website</h1>\n \n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n"
+                },
+                {
+                    "date": 1760081681854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <html>\n   <head>\n     <title>My first Website</title>\n   </head>\n-  <body>\n+  <body style>\n     \n     <!---\n         1.Inline\n         2.Internal\n"
+                },
+                {
+                    "date": 1760081689980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <html>\n   <head>\n     <title>My first Website</title>\n   </head>\n-  <body style>\n+  <body style=\"background-color: lightgreen;\">\n     \n     <!---\n         1.Inline\n         2.Internal\n"
+                },
+                {
+                    "date": 1760081710734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         2.Internal\n         3.External\n      -->\n     \n-    <h1>This is my website</h1>\n+    <h1 style=\"\">This is my website</h1>\n \n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n"
+                },
+                {
+                    "date": 1760081716576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         2.Internal\n         3.External\n      -->\n     \n-    <h1 style=\"\">This is my website</h1>\n+    <h1 style=\"color: ;\">This is my website</h1>\n \n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n"
+                },
+                {
+                    "date": 1760081735959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,13 +11,13 @@\n         2.Internal\n         3.External\n      -->\n     \n-    <h1 style=\"color: ;\">This is my website</h1>\n+    <h1 style=\"color: white;\">This is my website</h1>\n \n+    <p style=\"\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n  </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081784767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+<!DOCTYPE html>\n+\n+<html>\n+  <head>\n+    <title>My first Website</title>\n+  </head>\n+  <body style=\"background-color: lightgreen;\">\n+    \n+    <!---\n+        1.Inline\n+        2.Internal\n+        3.External\n+     -->\n+    \n+    <h1 style=\"color: white;\">This is my website</h1>\n+\n+    <p style=\"background\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+\n+\n+ </body>\n+  </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081795694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,34 +13,11 @@\n      -->\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n-    <p style=\"background\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n  </body>\n-  </html>\n-<!DOCTYPE html>\n-\n-<html>\n-  <head>\n-    <title>My first Website</title>\n-  </head>\n-  <body style=\"background-color: lightgreen;\">\n-    \n-    <!---\n-        1.Inline\n-        2.Internal\n-        3.External\n-     -->\n-    \n-    <h1 style=\"color: white;\">This is my website</h1>\n-\n-    <p style=\"\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-\n-\n- </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081801272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      -->\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n-    <p style=\"background-color;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n"
+                },
+                {
+                    "date": 1760081806440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      -->\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n-    <p style=\"background-color: gray;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray; color\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n"
+                },
+                {
+                    "date": 1760081813828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      -->\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n-    <p style=\"background-color: gray; color\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray; color:;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n"
+                },
+                {
+                    "date": 1760081823116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n      -->\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n-    <p style=\"background-color: gray; color:;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n"
+                },
+                {
+                    "date": 1760081849544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n     <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <pstyle=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n  </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081868849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n \n <html>\n   <head>\n     <title>My first Website</title>\n+    \n   </head>\n   <body style=\"background-color: lightgreen;\">\n     \n     <!---\n@@ -14,10 +15,10 @@\n     \n     <h1 style=\"color: white;\">This is my website</h1>\n \n     <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <pstyle=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n+    <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n  </body>\n   </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760081875768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <html>\n   <head>\n     <title>My first Website</title>\n-    \n+    <style\n   </head>\n   <body style=\"background-color: lightgreen;\">\n     \n     <!---\n"
+                },
+                {
+                    "date": 1760081886681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n <html>\n   <head>\n     <title>My first Website</title>\n-    <style\n+    <style> \n+        body\n+    </style>\n   </head>\n   <body style=\"background-color: lightgreen;\">\n     \n     <!---\n"
+                },
+                {
+                    "date": 1760081895824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n <html>\n   <head>\n     <title>My first Website</title>\n     <style> \n-        body\n+        body{\n+            \n+        }\n     </style>\n   </head>\n   <body style=\"background-color: lightgreen;\">\n     \n"
+                },
+                {
+                    "date": 1760081905001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <head>\n     <title>My first Website</title>\n     <style> \n         body{\n-            \n+            backgroun\n         }\n     </style>\n   </head>\n   <body style=\"background-color: lightgreen;\">\n"
+                },
+                {
+                    "date": 1760102834439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <head>\n     <title>My first Website</title>\n     <style> \n         body{\n-            backgroun\n+            background-color: black;\n         }\n     </style>\n   </head>\n   <body style=\"background-color: lightgreen;\">\n@@ -24,5 +24,6 @@\n     <p style=\"background-color: gray; color:white;\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, enim vero, sint sequi sapiente voluptas aliquid doloremque molestiae, beatae non earum aliquam culpa minima possimus! Quaerat suscipit exercitationem quia quidem.</p>\n \n \n  </body>\n-  </html>\n\\ No newline at end of file\n+  </html>\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102840107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,5 @@\n \n \n  </body>\n   </html>\n-  \n\\ No newline at end of file\n+  <!--font-->\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102847807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,6 @@\n \n \n  </body>\n   </html>\n-  <!--font-->\n\\ No newline at end of file\n+  <!--font-->\n+  <font-family></font-family>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102854608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,5 @@\n \n  </body>\n   </html>\n   <!--font-->\n-  <font-family></font-family>\n\\ No newline at end of file\n+  <font-family: s></font-family>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102861820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,5 @@\n \n  </body>\n   </html>\n   <!--font-->\n-  <font-family: s></font-family>\n\\ No newline at end of file\n+  <font-family: \"consolas\"></font-family>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102867207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,5 @@\n \n  </body>\n   </html>\n   <!--font-->\n-  <font-family: \"consolas\"></font-family>\n\\ No newline at end of file\n+  <font-family: \"consolas\", ></font-family>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760102916555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,5 @@\n \n  </body>\n   </html>\n   <!--font-->\n-  <font-family: \"consolas\", ></font-family>\n\\ No newline at end of file\n+<p style=\"font-family: 'Consolas', sans-serif;\">이 문장은 Consolas 폰트로 표시됩니다.</p>\n"
+                },
+                {
+                    "date": 1760102926235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,20 @@\n \n  </body>\n   </html>\n   <!--font-->\n-<p style=\"font-family: 'Consolas', sans-serif;\">이 문장은 Consolas 폰트로 표시됩니다.</p>\n+<!DOCTYPE html>\n+<html>\n+  <head>\n+    <style>\n+      body {\n+        font-family: 'Consolas', sans-serif;\n+      }\n+    </style>\n+  </head>\n+\n+  <body>\n+    <h1>폰트 예시</h1>\n+    <p>이 페이지 전체가 Consolas 폰트로 표시됩니다.</p>\n+  </body>\n+</html>\n+</p>\n"
+                },
+                {
+                    "date": 1760102942344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n   </head>\n \n   <body>\n     <h1>폰트 예시</h1>\n-    <p>이 페이지 전체가 Consolas 폰트로 표시됩니다.</p>\n+    <p> Every text in this paragraph wil.</p>\n   </body>\n </html>\n </p>\n"
+                },
+                {
+                    "date": 1760102950284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n   </head>\n \n   <body>\n     <h1>폰트 예시</h1>\n-    <p> Every text in this paragraph wil.</p>\n+    <p> Every texts in this paragraph will be in consolas .</p>\n   </body>\n </html>\n </p>\n"
+                },
+                {
+                    "date": 1760102982917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n \n   <body>\n-    <h1>폰트 예시</h1>\n-    <p> Every texts in this paragraph will be in consolas .</p>\n+    <h1>F</h1>\n+    <p> Every texts in this paragraph will be in consolas text.</p>\n   </body>\n </html>\n </p>\n"
+                },
+                {
+                    "date": 1760103044029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,11 @@\n         font-family: 'Consolas', sans-serif;\n       }\n     </style>\n   </head>\n-\n+  \n   <body>\n-    <h1>F</h1>\n+    <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n   </body>\n </html>\n </p>\n"
+                },
+                {
+                    "date": 1760103052125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,11 @@\n         font-family: 'Consolas', sans-serif;\n       }\n     </style>\n   </head>\n-  \n+  h1{\n+    color: \n+  }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n   </body>\n"
+                },
+                {
+                    "date": 1760103057822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,10 @@\n       }\n     </style>\n   </head>\n   h1{\n-    color: \n+    color: blue;\n+    \n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103063268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n   h1{\n     color: blue;\n-    \n+    font-family: \"\"\n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103069642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n   h1{\n     color: blue;\n-    font-family: \"\"\n+    font-family: \"press start 2p\"\n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103075239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n   h1{\n     color: blue;\n-    font-family: \"press start 2p\"\n+    font-family: \"press start 2p\", \"\"\n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103080935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n   h1{\n     color: blue;\n-    font-family: \"press start 2p\", \"\"\n+    font-family: \"press start 2p\", \"consolas\"\n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103094890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     </style>\n   </head>\n   h1{\n     color: blue;\n-    font-family: \"press start 2p\", \"consolas\"\n+    font-family: \"press start 2p\", \"consolas\", \n   }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n"
+                },
+                {
+                    "date": 1760103131925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,12 +35,8 @@\n         font-family: 'Consolas', sans-serif;\n       }\n     </style>\n   </head>\n-  h1{\n-    color: blue;\n-    font-family: \"press start 2p\", \"consolas\", \n-  }\n   <body>\n     <h1>FONT</h1>\n     <p> Every texts in this paragraph will be in consolas text.</p>\n   </body>\n"
+                },
+                {
+                    "date": 1760103145173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n   <head>\n     <style>\n       body {\n         font-family: 'Consolas', sans-serif;\n+        font\n       }\n     </style>\n   </head>\n   <body>\n"
+                },
+                {
+                    "date": 1760103155268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,10 @@\n   <head>\n     <style>\n       body {\n         font-family: 'Consolas', sans-serif;\n-        font\n+        font-style: italic;\n+        font-weight\n       }\n     </style>\n   </head>\n   <body>\n"
+                },
+                {
+                    "date": 1760103170609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,10 @@\n     <style>\n       body {\n         font-family: 'Consolas', sans-serif;\n         font-style: italic;\n-        font-weight\n+        font-weight: bold;\n+        font\n       }\n     </style>\n   </head>\n   <body>\n"
+                },
+                {
+                    "date": 1760103177543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n       body {\n         font-family: 'Consolas', sans-serif;\n         font-style: italic;\n         font-weight: bold;\n-        font\n+        text-decoration: ;\n       }\n     </style>\n   </head>\n   <body>\n"
+                },
+                {
+                    "date": 1760103183867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n       body {\n         font-family: 'Consolas', sans-serif;\n         font-style: italic;\n         font-weight: bold;\n-        text-decoration: ;\n+        text-decoration: cadetblue;\n       }\n     </style>\n   </head>\n   <body>\n"
+                },
+                {
+                    "date": 1760103190721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n         font-family: 'Consolas', sans-serif;\n         font-style: italic;\n         font-weight: bold;\n         text-decoration: cadetblue;\n+        font\n       }\n     </style>\n   </head>\n   <body>\n"
+                }
+            ],
+            "date": 1760081290885,
+            "name": "Commit-0",
+            "content": "<"
+        }
+    ]
+}

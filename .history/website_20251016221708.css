@@ -1,0 +1,68 @@
+/* style.css — HTML 태그 금지! CSS만 */
+/* style.css */
+
+html, body {
+    height: 200%;
+    margin: 0;
+}
+body {
+  background: linear-gradient(to right,
+   red 15%,
+   white 15% 85%,
+   red 85%);
+  background-repeat: no-repeat;
+margin: 0;
+} 
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/* 중앙 본문 폭 */
+.container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+/* ⬇️ 핵심 */
+.content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.text{ flex: 1 1 60%; }                    /* 텍스트 영역 */
+.image{ flex: 0 0 260px; display:flex; justify-content:flex-end; }
+.image img{ width: 240px; height:auto; display:block; }
+
+/* 좁은 화면에서는 세로로 쌓이게 */
+@media (max-width: 768px){
+  .content{ flex-direction: column; }
+  .image{ justify-content: flex-start; }
+}
+
+/* 전체 링크 스타일 제거 (보라색/밑줄 방지) */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 마우스 올렸을 때 색 안 변하게 */
+a:hover {
+  color: black;
+}
+
+/* 로고 이미지만 링크 유지 + 클릭 시 효과 주기 (선택사항) */
+.image a img {
+  transition: transform 0.2s ease;
+}
+
+.image a img:hover {
+  transform: scale(1.50);
+}
+
+

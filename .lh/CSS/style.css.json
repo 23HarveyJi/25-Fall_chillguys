@@ -1,0 +1,26 @@
+{
+    "sourceFile": "CSS/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1760103694122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760104078997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-<link rel=\"stylesheet\" href=\"CSS/style.css\">\n \n+\n !DOCTYPE html>\n \n <html lang=\"en\">\n   <head>\n"
+                },
+                {
+                    "date": 1760104233803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n-\n-\n !DOCTYPE html>\n \n <html lang=\"en\">\n   <head>\n"
+                }
+            ],
+            "date": 1760103694122,
+            "name": "Commit-0",
+            "content": "<link rel=\"stylesheet\" href=\"CSS/style.css\">\n\n!DOCTYPE html>\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"stylesheet\" href=\"style.css\" />\n    <title>My first Website</title>\n  </head>\n  <body>\n    <h1>This is a heading</h1>\n    <p>This is a paragraph.</p>\n    <p>This is another paragraph.</p>\n  </body>\np{\n    border-style: outset;\n    border-width: 5px;\n    border-color: gold;\n    border-radius: 10px;\n    padding: 5px;\n}"
+        }
+    ]
+}

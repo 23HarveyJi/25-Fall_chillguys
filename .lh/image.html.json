@@ -1,0 +1,42 @@
+{
+    "sourceFile": "image.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1760073299471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760073423923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <img src=\"photo.jpg\" alt=\"My photo\">\n+    <img src=\"/images/photo.jpg\" alt=\"My photo\">\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1760073491919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <img src=\"/images/photo.jpg\" alt=\"My photo\">\n+    <img src=\"/images/photo.jpg\">\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1760073626617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <img src=\"/images/photo.jpg\">\n+    <img src=\"photo.jpg\">\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1760073642799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <img src=\"photo.jpg\">\n+    <img src=\"photo.jpg\" alt=\"My photo\" width=\"400\">\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1760073768138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n   <head>\n     <title>My first Website</title>\n   </head>\n   <body>\n-    <img src=\"photo.jpg\">\n+    <img src=\"photo.jpg\">>\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1760073799272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+<!DOCTYPE html>\n+<html>\n+  <head>\n+    <title>My first Website</title>\n+  </head>\n+  <body>\n+    <img src=\"photo.jpg\" alt=\"My photo\" width=\"400\" \n+\n+    >\n+  </body>\n+</html>\n"
+                }
+            ],
+            "date": 1760073299471,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>My first Website</title>\n  </head>\n  <body>\n    <img src=\"photo.jpg\" alt=\"My photo\">\n  </body>\n</html>\n"
+        }
+    ]
+}

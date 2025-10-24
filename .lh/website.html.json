@@ -1,0 +1,78 @@
+{
+    "sourceFile": "website.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1760562782111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760562787662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+\n"
+                },
+                {
+                    "date": 1760562793648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n <!DOCTYPE html>\n \n+<\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760562803959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,11 @@\n <!DOCTYPE html>\n \n-<\n\\ No newline at end of file\n+<html>\n+  <head>\n+    <title>My first Website</title>\n+    <link rel=\"stylesheet\" href=\">\n+  </head>\n+  <body>\n+    <h1>Welcome to my website</h1>\n+    <p>This is my first website. I am learning HTML and CSS.</p>\n+  </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563339739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,6 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title>My first Website</title>\n-    <link rel=\"stylesheet\" href=\">\n-  </head>\n-  <body>\n-    <h1>Welcome to my website</h1>\n-    <p>This is my first website. I am learning HTML and CSS.</p>\n-  </body>\n\\ No newline at end of file\n+    <title></title>\n+    <link rel=\"stylesheet\" href=\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563369442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title></title>\n+    <title>KBSA </title>\n     <link rel=\"stylesheet\" href=\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563380436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title>KBSA </title>\n+    <title>KBSA (Korean Business Student Organization)</title>\n     <link rel=\"stylesheet\" href=\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563387588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n \n <html>\n   <head>\n     <title>KBSA (Korean Business Student Organization)</title>\n+    \n     <link rel=\"stylesheet\" href=\">\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563492438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title>KBSA (Korean Business Student Organization)</title>\n-    \n-    <link rel=\"stylesheet\" href=\">\n\\ No newline at end of file\n+    <title>한국 동아리</title>\n"
+                },
+                {
+                    "date": 1760563498533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title>한국 동아리</title>\n+    <title> UW한국 동아리</title>\n"
+                },
+                {
+                    "date": 1760563503562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <!DOCTYPE html>\n \n <html>\n   <head>\n-    <title> UW한국 동아리</title>\n+    <title> UW-Madison 한인 동아리</title>\n+    \n"
+                },
+                {
+                    "date": 1760563508639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n \n <html>\n   <head>\n     <title> UW-Madison 한인 동아리</title>\n-    \n+    <link rel=\"stylesheet\" href=\"style.css\">\n+  </head>\n"
+                },
+                {
+                    "date": 1760563561076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,5 @@\n   <head>\n     <title> UW-Madison 한인 동아리</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n   </head>\n+ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563567145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,7 @@\n   <head>\n     <title> UW-Madison 한인 동아리</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n   </head>\n- \n\\ No newline at end of file\n+ <body>\n+    K\n+ </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760563590310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <title> UW-Madison 한인 동아리</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n   </head>\n  <body>\n-    <h1>UW-Madison 한인 동아리</h1>\n+    <h1>Korean B/h1>\n     <p>UW-Madison 한인 동아리는 UW-Madison에 재학 중인 한국 학생들을 위한 동아리입니다. \n       저희 동아리는 한국 문화와 언어를 홍보하고, 한국 학생들이 미국 대학 생활에 잘 적응할 수 있도록 돕는 것을 목표로 하고 있습니다. \n       다양한 문화 행사, 사회 봉사 활동, 네트워킹 이벤트 등을 통해 회원들 간의 유대감을 강화하고, 한국 학생들의 권익을 보호하는 데 힘쓰고 있습니다.\n       UW-Madison 한인 동아리는 모든 한국 학생들에게 열려 있으며, 함께 성장하고 발전하는 기회를 제공합니다. \n"
+                },
+                {
+                    "date": 1760563596688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <title> UW-Madison 한인 동아리</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n   </head>\n  <body>\n-    <h1>Korean B/h1>\n+    <h1>Korean Business Student /h1>\n     <p>UW-Madison 한인 동아리는 UW-Madison에 재학 중인 한국 학생들을 위한 동아리입니다. \n       저희 동아리는 한국 문화와 언어를 홍보하고, 한국 학생들이 미국 대학 생활에 잘 적응할 수 있도록 돕는 것을 목표로 하고 있습니다. \n       다양한 문화 행사, 사회 봉사 활동, 네트워킹 이벤트 등을 통해 회원들 간의 유대감을 강화하고, 한국 학생들의 권익을 보호하는 데 힘쓰고 있습니다.\n       UW-Madison 한인 동아리는 모든 한국 학생들에게 열려 있으며, 함께 성장하고 발전하는 기회를 제공합니다. \n"
+                }
+            ],
+            "date": 1760562782111,
+            "name": "Commit-0",
+            "content": "<!"
+        }
+    ]
+}

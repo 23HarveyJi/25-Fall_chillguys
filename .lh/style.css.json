@@ -1,0 +1,118 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1760120627564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760120874853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n     <h1>This is a heading</h1>\n     <p>This is a paragraph.</p>\n     <p>This is another paragraph.</p>\n   </body>\n-p{\n-    border-style: outset;\n-    border-width: 5px;\n-    border-color: gold;\n-    border-radius: 10px;\n-    padding: 5px;\n-}\n\\ No newline at end of file\n+p {\n+  border-style: outset;\n+  border-width: 5px;\n+  border-color: gold;\n+  border-radius: 10px;\n+  padding: 5px;\n+}\n"
+                },
+                {
+                    "date": 1760120889417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-!DOCTYPE html>\n \n+\n <html lang=\"en\">\n   <head>\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n"
+                },
+                {
+                    "date": 1760120900392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,12 @@\n \n+<html lang=\"en\">\n \n-<html lang=\"en\">\n-  <head>\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <link rel=\"stylesheet\" href=\"style.css\" />\n     <title>My first Website</title>\n-  </head>\n+  \n   <body>\n     <h1>This is a heading</h1>\n     <p>This is a paragraph.</p>\n     <p>This is another paragraph.</p>\n"
+                },
+                {
+                    "date": 1760120905454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <link rel=\"stylesheet\" href=\"style.css\" />\n     <title>My first Website</title>\n   \n-  <body>\n+\n     <h1>This is a heading</h1>\n     <p>This is a paragraph.</p>\n     <p>This is another paragraph.</p>\n   </body>\n"
+                },
+                {
+                    "date": 1760120920851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,13 @@\n-\n <html lang=\"en\">\n \n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <link rel=\"stylesheet\" href=\"style.css\" />\n     <title>My first Website</title>\n-  \n-\n     <h1>This is a heading</h1>\n     <p>This is a paragraph.</p>\n     <p>This is another paragraph.</p>\n-  </body>\n p {\n   border-style: outset;\n   border-width: 5px;\n   border-color: gold;\n"
+                },
+                {
+                    "date": 1760123262219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n-<html lang=\"en\">\n \n+\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <link rel=\"stylesheet\" href=\"style.css\" />\n     <title>My first Website</title>\n"
+                },
+                {
+                    "date": 1760123295982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-\n     <meta charset=\"UTF-8\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <link rel=\"stylesheet\" href=\"style.css\" />\n     <title>My first Website</title>\n"
+                },
+                {
+                    "date": 1760123415304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,10 @@\n-\n-    <meta charset=\"UTF-8\" />\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n-    <link rel=\"stylesheet\" href=\"style.css\" />\n-    <title>My first Website</title>\n-    <h1>This is a heading</h1>\n-    <p>This is a paragraph.</p>\n-    <p>This is another paragraph.</p>\n+/* style.css — HTML 태그 금지! CSS만 */\n+body { background: #fffbe6; }   /* 연결 확인용 */\n p {\n   border-style: outset;\n   border-width: 5px;\n   border-color: gold;\n   border-radius: 10px;\n   padding: 5px;\n }\n+\n"
+                },
+                {
+                    "date": 1760123688798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n+\n p {\n   border-style: outset;\n   border-width: 5px;\n   border-color: gold;\n"
+                },
+                {
+                    "date": 1760123696534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n-\n+h1 \n p {\n   border-style: outset;\n   border-width: 5px;\n   border-color: gold;\n"
+                },
+                {
+                    "date": 1760123702696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n-h1 \n+h1 {\n+  border\n+}\n p {\n   border-style: outset;\n   border-width: 5px;\n   border-color: gold;\n"
+                },
+                {
+                    "date": 1760123708169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n h1 {\n-  border\n+  border-top-style;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123714859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n h1 {\n-  border-top-style;\n+  border-top-style: dotted;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123723831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n h1 {\n   border-top-style: dotted;\n+  border-top-style: dotted\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123730881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n h1 {\n   border-top-style: dotted;\n-  border-top-style: dotted\n+  border-top-style: dotted;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123739629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n /* style.css — HTML 태그 금지! CSS만 */\n body { background: #fffbe6; }   /* 연결 확인용 */\n h1 {\n   border-top-style: dotted;\n-  border-top-style: dotted;\n+  border-bottom-style: dotted;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123746324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+/* style.css — HTML 태그 금지! CSS만 */\n+body { background: #fffbe6; }   /* 연결 확인용 */\n+h1 {\n+  border-top-style: dotted;\n+  border-bottom-style: dotted;\n+  border-left\n+}\n+p {\n+  border-style: outset;\n+  border-width: 5px;\n+  border-color: gold;\n+  border-radius: 10px;\n+  padding: 5px;\n+}\n+\n"
+                },
+                {
+                    "date": 1760123752870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+/* style.css — HTML 태그 금지! CSS만 */\n+body { background: #fffbe6; }   /* 연결 확인용 */\n+h1 {\n+  border-top-style: dotted;\n+  border-bottom-style: dotted;\n+  border-left-style: double;\n+}\n+p {\n+  border-style: outset;\n+  border-width: 5px;\n+  border-color: gold;\n+  border-radius: 10px;\n+  padding: 5px;\n+}\n+\n"
+                },
+                {
+                    "date": 1760123758173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n h1 {\n   border-top-style: dotted;\n   border-bottom-style: dotted;\n   border-left-style: double;\n+  border\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n@@ -12,33 +13,4 @@\n   border-radius: 10px;\n   padding: 5px;\n }\n \n-/* style.css — HTML 태그 금지! CSS만 */\n-body { background: #fffbe6; }   /* 연결 확인용 */\n-h1 {\n-  border-top-style: dotted;\n-  border-bottom-style: dotted;\n-  border-left\n-}\n-p {\n-  border-style: outset;\n-  border-width: 5px;\n-  border-color: gold;\n-  border-radius: 10px;\n-  padding: 5px;\n-}\n-\n-/* style.css — HTML 태그 금지! CSS만 */\n-body { background: #fffbe6; }   /* 연결 확인용 */\n-h1 {\n-  border-top-style: dotted;\n-  border-bottom-style: dotted;\n-}\n-p {\n-  border-style: outset;\n-  border-width: 5px;\n-  border-color: gold;\n-  border-radius: 10px;\n-  padding: 5px;\n-}\n-\n"
+                },
+                {
+                    "date": 1760123767307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n h1 {\n   border-top-style: dotted;\n   border-bottom-style: dotted;\n   border-left-style: double;\n-  border\n+  border-left-color: ;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123773884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n h1 {\n   border-top-style: dotted;\n   border-bottom-style: dotted;\n   border-left-style: double;\n-  border-left-color: ;\n+  border-left-color: silver;\n }\n p {\n   border-style: outset;\n   border-width: 5px;\n"
+                },
+                {
+                    "date": 1760123833936,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n   border-color: gold;\n   border-radius: 10px;\n   padding: 5px;\n }\n-\n+body\n"
+                },
+                {
+                    "date": 1760123839961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,7 @@\n   border-color: gold;\n   border-radius: 10px;\n   padding: 5px;\n }\n-body\n+body{\n+  back\n+}\n"
+                },
+                {
+                    "date": 1760123845756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n   border-radius: 10px;\n   padding: 5px;\n }\n body{\n-  background\n+  background: linear;\n }\n"
+                },
+                {
+                    "date": 1760123861857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n   border-radius: 10px;\n   padding: 5px;\n }\n body{\n-  background: linear-gradient();\n+  background: linear-gradient(skyblue,);\n }\n"
+                }
+            ],
+            "date": 1760120627564,
+            "name": "Commit-0",
+            "content": "!DOCTYPE html>\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"stylesheet\" href=\"style.css\" />\n    <title>My first Website</title>\n  </head>\n  <body>\n    <h1>This is a heading</h1>\n    <p>This is a paragraph.</p>\n    <p>This is another paragraph.</p>\n  </body>\np{\n    border-style: outset;\n    border-width: 5px;\n    border-color: gold;\n    border-radius: 10px;\n    padding: 5px;\n}"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+/* style.css — HTML 태그 금지! CSS만 */
+body { background: #fffbe6; }   /* 연결 확인용 */
+  background image: url('background.jpg');
+h1 {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-left-color: silver;
+}
+p {
+  border-style: outset;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+}
+body{
+  background: linear-gradient(to right, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p{
+  background: linear-gradient(to right, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+

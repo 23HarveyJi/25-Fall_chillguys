@@ -1,0 +1,122 @@
+{
+    "sourceFile": "buttons.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 26,
+            "patches": [
+                {
+                    "date": 1760080351514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760080359349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,11 @@\n-<!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+<html>\n+    <head>\n+        <title>My first Website</title>\n+    </head>\n+    <body>\n+        <button style=\"background-color: lightblue; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;\" onclick=\"alert('Button clicked!')\">\n+        Click Me\n+        </button>\n+    </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080404046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <head>\n         <title>My first Website</title>\n     </head>\n     <body>\n-        <button style=\"background-color: lightblue; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;\" onclick=\"alert('Button clicked!')\">\n+        <button \"background-color: lightblue; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;\" onclick=\"alert('Button clicked!')\">\n         Click Me\n         </button>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080412194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <head>\n         <title>My first Website</title>\n     </head>\n     <body>\n-        <button \"background-color: lightblue; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;\" onclick=\"alert('Button clicked!')\">\n+        <button \">\n         Click Me\n         </button>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080418920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <head>\n         <title>My first Website</title>\n     </head>\n     <body>\n-        <button \">\n-        Click Me\n+        <button></button>>\n+    Click Me\n         </button>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080426785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,7 @@\n     <head>\n         <title>My first Website</title>\n     </head>\n     <body>\n-        <button></button>>\n-    Click Me\n-        </button>\n+        <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080442196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,9 @@\n     <head>\n         <title>My first Website</title>\n     </head>\n     <body>\n+\n+        <a \n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080447942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n         <title>My first Website</title>\n     </head>\n     <body>\n \n-        <a \n+        <a href\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080461665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,8 @@\n         <title>My first Website</title>\n     </head>\n     <body>\n \n-        <a href\n+        <a href=\"htt\"\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080487256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         <title>My first Website</title>\n     </head>\n     <body>\n \n-        <a href=\"htt\"\n+        <a href=\"https://www.google.com\" target=\"_blank\" \">\n+            Go to Google\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080494431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         <title>My first Website</title>\n     </head>\n     <body>\n \n-        <a href=\"https://www.google.com\" target=\"_blank\" \">\n+        <a href=\"https://www.google.com\" >\n             Go to Google\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080502322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         <title>My first Website</title>\n     </head>\n     <body>\n \n-        <a href=\"https://www.google.com\" >\n+        <a href=\"https://www.google.com\">\n             Go to Google\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080507847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-            Go to Google\n         <button>Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080514898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button>Click Me</button>>\n+        <button style=\"\">Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080520882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button style=\"\">Click Me</button>>\n+        <button style=\"color: blue;\">Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080527099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button style=\"color: blue;\">Click Me</button>>\n+        <button style=\"baccolor: blue;\">Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080545648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button style=\"baccolor: blue;\">Click Me</button>>\n+        <button style=\"background-color: rgb(red, green, blue)\">Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080551567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button style=\"background-color: rgb(red, green, blue)\">Click Me</button>>\n+        <button style=\"background-color: rgb(rgb(57, 51, 51), green, blue)\">Click Me</button>>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080616542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,8 @@\n     </head>\n     <body>\n \n         <a href=\"https://www.google.com\">\n-        <button style=\"background-color: rgb(rgb(57, 51, 51), green, blue)\">Click Me</button>>\n+        <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n+\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080653939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n \n         <a href=\"https://www.google.com\">\n         <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n \n+        <p></p>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080660138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n \n         <a href=\"https://www.google.com\">\n         <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n \n-        <p></p>\n+        <p id=\"test\"</p>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080666280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n \n         <a href=\"https://www.google.com\">\n         <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n \n-        <p id=\"test\"</p>\n+        <p id=\"test\">hello</p>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080680941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,9 @@\n \n         <a href=\"https://www.google.com\">\n         <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n \n-        <p id=\"test\">hello</p>\n+        <p id=\"test\">Hello</p>\n+\n+        <script\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080686082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,9 @@\n         <button style=\"background-color: rgb(57, 51, 51); color: white;\">Click Me</button>\n \n         <p id=\"test\">Hello</p>\n \n-        <script\n+        <script>\n+            \n+        </script>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080692566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n         <p id=\"test\">Hello</p>\n \n         <script>\n-            \n+            function doSomething\n         </script>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080700893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n         <p id=\"test\">Hello</p>\n \n         <script>\n-            function doSomething\n+            function doSomething() \n         </script>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760080724606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n \n         <p id=\"test\">Hello</p>\n \n         <script>\n-            function doSomething() \n+            function doSomething() {}\n+            \n         </script>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1760080351514,
+            "name": "Commit-0",
+            "content": "<!"
+        }
+    ]
+}

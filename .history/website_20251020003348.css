@@ -1,0 +1,85 @@
+/* === 색 변수 (원하면 숫자만 바꿔 사용) === */
+:root{
+  --uw-red: #c5050c;   /* UW-Madison Red */
+  --uw-gray: #eaecf3;
+  --paper: #ffffff;
+}
+ body {
+  background-image: url("kbsa");
+}
+
+/* === 리셋 & 기본 === */
+*{ box-sizing: border-box; }
+html, body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;           /* 화면 가득 */
+}
+
+/* === 배경: 레드 → 화이트 그라데이션 === */
+body{
+  /* 부드러운 대각 그라데이션 */
+  background: linear-gradient(115deg, var(--uw-red) 0%, #f7d7da 35%, #ffffff 65%);
+  background-attachment: fixed; /* 스크롤해도 고정되어 고급스러움 */
+}
+
+/* (옵션) 반투명 로고 워터마크 – kbsa_logo.png 경로만 맞춰주세요 */
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("images/kbsa_logo.png") center/420px no-repeat;
+  opacity: 0.06;               /* 너무 진하면 0.04~0.08로 조절 */
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* === 본문 컨테이너(카드 느낌) === */
+.container{
+  position: relative;
+  z-index: 1;                  /* 워터마크보다 위로 */
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+/* 섹션 카드 박스(소개/목표/임원진 등에 적용) */
+.section{
+  background: rgba(255,255,255,0.92);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 18px 0;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  backdrop-filter: blur(2px);  /* 살짝 유리 느낌(지원 브라우저에서만) */
+}
+
+h1{
+  margin: 0 0 18px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: 0.2px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+  /* (옵션) 아래 밑줄 느낌 */
+  position: relative;
+}
+h1::after{
+  content:"";
+  display:block;
+  width: 84px;
+  height: 4px;
+  margin: 10px auto 0;
+  border-radius: 999px;
+  background: var(--uw-red);
+}
+
+/* 리스트 간격/가독성 */
+ul{ padding-left: 22px; }
+li{ margin: 6px 0; line-height: 1.5; }
+
+/* (옵션) 좌우 여백이 너무 답답하면 모바일에서만 여백 확대 */
+@media (max-width: 640px){
+  .container{ padding: 20px 16px 56px; }
+  h1{ font-size: 26px; }
+}

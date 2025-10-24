@@ -1,0 +1,90 @@
+{
+    "sourceFile": "website.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1760563720345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760563974323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   border-radius: 10px;\n   padding: 5px;\n }\n body{\n-  background: linear-gradient(to right, skyblue, lightgreen);\n+  background: linear-gradient(to right, , lightgreen);\n   background-repeat: no-repeat;\n   background-attachment: fixed;\n }\n p{\n"
+                },
+                {
+                    "date": 1760563984383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   border-radius: 10px;\n   padding: 5px;\n }\n body{\n-  background: linear-gradient(to right, , lightgreen);\n+  background: linear-gradient(to right, red);\n   background-repeat: no-repeat;\n   background-attachment: fixed;\n }\n p{\n"
+                },
+                {
+                    "date": 1760563997865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,7 +27,7 @@\n   background-repeat: no-repeat;\n   background-attachment: fixed;\n }\n p{\n-  background: linear-gradient(to right, skyblue, lightgreen);\n+  background: linear-gradient(to right, red, lightgreen);\n   background-repeat: no-repeat;\n   background-attachment: fixed;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760564007516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,7 +27,8 @@\n   background-repeat: no-repeat;\n   background-attachment: fixed;\n }\n p{\n-  background: linear-gradient(to right, red, lightgreen);\n+  background: linear-gradient(to right, red);\n   background-repeat: no-repeat;\n\\ No newline at end of file\n-  background-attachment: fixed;\n+  background-attachment: fixed;\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568823845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,34 +1,5 @@\n /* style.css — HTML 태그 금지! CSS만 */\n /* style.css */\n body {\n-  background-color: #fffbe6;        \n-  background-image: url(\"download.jpg\");\n-  background-repeat: no-repeat;\n-  background-attachment: fixed;\n-  background-position: center;\n-  background-size: cover;\n-}\n-\n-h1 {\n-  border-top-style: dotted;\n-  border-bottom-style: dotted;\n-  border-left-style: double;\n-  border-left-color: silver;\n-}\n-p {\n-  border-style: outset;\n-  border-width: 5px;\n-  border-color: gold;\n-  border-radius: 10px;\n-  padding: 5px;\n-}\n-body{\n-  background: linear-gradient(to right, red);\n-  background-repeat: no-repeat;\n-  background-attachment: fixed;\n-}\n-p{\n-  background: linear-gradient(to right, red);\n-  background-repeat: no-repeat;\n-  background-attachment: fixed;\n-  \n\\ No newline at end of file\n+  background\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568833838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n /* style.css — HTML 태그 금지! CSS만 */\n /* style.css */\n body {\n-  background\n+  background: linear-gradient(to right, red)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568839469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+/* style.css — HTML 태그 금지! CSS만 */\n+/* style.css */\n+body {\n+  background: linear-gradient(to right, red)\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568853496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,6 @@\n /* style.css — HTML 태그 금지! CSS만 */\n /* style.css */\n body {\n-  background: linear-gradient(to right, red)\n-}\n-/* style.css — HTML 태그 금지! CSS만 */\n-/* style.css */\n-body {\n-  background: linear-gradient(to right, red)\n+  background: linear-gradient(to right,\n+   red)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568859315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n /* style.css — HTML 태그 금지! CSS만 */\n /* style.css */\n body {\n   background: linear-gradient(to right,\n-   red)\n+   red 5%,\n+   )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568864628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n /* style.css */\n body {\n   background: linear-gradient(to right,\n    red 5%,\n-   )\n+   white )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568874354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n /* style.css */\n body {\n   background: linear-gradient(to right,\n    red 5%,\n-   white )\n+   white 5%,95%\n+   )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568880729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n body {\n   background: linear-gradient(to right,\n    red 5%,\n    white 5%,95%\n-   )\n+   red 5%)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568887922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n body {\n   background: linear-gradient(to right,\n    red 5%,\n    white 5%,95%\n-   red 5%)\n+   red 5%);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568895213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n body {\n   background: linear-gradient(to right,\n    red 5%,\n    white 5%,95%\n-   red 5%);\n+   red 5%)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568907784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n body {\n   background: linear-gradient(to right,\n    red 5%,\n    white 5%,95%\n-   red 5%)\n-}\n\\ No newline at end of file\n+   red 5%);\n+  background-repeat: no-repeat;\n+} \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568913796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n    red 5%,\n    white 5%,95%\n    red 5%);\n   background-repeat: no-repeat;\n+margin: 0;\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760568936954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n    red 5%,\n    white 5%,95%\n    red 5%);\n   background-repeat: no-repeat;\n-margin: 0;;\n+margin: 0;\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760569019304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+/* style.css — HTML 태그 금지! CSS만 */\n+/* style.css */\n+body {\n+  background: linear-gradient(to right,\n+   red 5%,\n+   white 5%,95%\n+   red 5%);\n+  background-repeat: no-repeat;\n+margin: 0;\n+} \n+.container {\n+  max-width: 1200px;\n+  margin: 0 auto;\n+  padding: 20px;\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1760563720345,
+            "name": "Commit-0",
+            "content": "/* style.css — HTML 태그 금지! CSS만 */\n/* style.css */\nbody {\n  background-color: #fffbe6;        \n  background-image: url(\"download.jpg\");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-position: center;\n  background-size: cover;\n}\n\nh1 {\n  border-top-style: dotted;\n  border-bottom-style: dotted;\n  border-left-style: double;\n  border-left-color: silver;\n}\np {\n  border-style: outset;\n  border-width: 5px;\n  border-color: gold;\n  border-radius: 10px;\n  padding: 5px;\n}\nbody{\n  background: linear-gradient(to right, skyblue, lightgreen);\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n}\np{\n  background: linear-gradient(to right, skyblue, lightgreen);\n  background-repeat: no-repeat;\n  background-attachment: fixed;"
+        }
+    ]
+}

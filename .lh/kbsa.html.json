@@ -1,0 +1,26 @@
+{
+    "sourceFile": "kbsa.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1760935026532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760935050071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"utf-8\" />\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n   <title>KBSA — UW-Madison Korean Business Student Association</title>\n   <!-- 시스템 폰트 스택(빠르고 가벼움). 웹폰트 쓰고 싶으면 Google Fonts 링크로 교체 -->\n-  <link rel=\"stylesheet\" href=\"site.css\" />\n+  <link rel=\"stylesheet\" href=\".css\" />\n </head>\n <body>\n   <header class=\"nav\">\n     <div class=\"container nav__inner\">\n"
+                },
+                {
+                    "date": 1760935058072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"utf-8\" />\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n   <title>KBSA — UW-Madison Korean Business Student Association</title>\n   <!-- 시스템 폰트 스택(빠르고 가벼움). 웹폰트 쓰고 싶으면 Google Fonts 링크로 교체 -->\n-  <link rel=\"stylesheet\" href=\".css\" />\n+  <link rel=\"stylesheet\" href=\"website.css\" />\n </head>\n <body>\n   <header class=\"nav\">\n     <div class=\"container nav__inner\">\n"
+                }
+            ],
+            "date": 1760935026532,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html lang=\"ko\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title>KBSA — UW-Madison Korean Business Student Association</title>\n  <!-- 시스템 폰트 스택(빠르고 가벼움). 웹폰트 쓰고 싶으면 Google Fonts 링크로 교체 -->\n  <link rel=\"stylesheet\" href=\"site.css\" />\n</head>\n<body>\n  <header class=\"nav\">\n    <div class=\"container nav__inner\">\n      <a class=\"brand\" href=\"#\">\n        <img src=\"logo.png\" alt=\"KBSA\" class=\"brand__logo\" />\n        <span class=\"brand__name\">KBSA</span>\n      </a>\n      <nav class=\"nav__menu\">\n        <a href=\"#about\">소개</a>\n        <a href=\"#goals\">목표</a>\n        <a href=\"#board\">임원진</a>\n        <a class=\"btn btn--ghost\" href=\"#apply\">지원하기</a>\n      </nav>\n      <button class=\"nav__toggle\" aria-label=\"메뉴 열기\">☰</button>\n    </div>\n  </header>\n\n  <main>\n    <!-- Hero -->\n    <section class=\"hero\">\n      <div class=\"container hero__inner\">\n        <h1>KBSA — UW-Madison 한인 비즈니스 학회</h1>\n        <p class=\"hero__sub\">비즈니스 지식과 네트워킹을 함께 키우는 UW-Madison 대표 한인 비즈니스 동아리입니다.</p>\n        <div class=\"hero__cta\">\n          <a href=\"#apply\" class=\"btn btn--primary\">동아리 지원하기 →</a>\n          <a href=\"#contact\" class=\"btn btn--ghost\">문의하기</a>\n        </div>\n        <p class=\"hero__note\">* 링크가 만료되면 인스타그램 @kbsa 로 문의해주세요.</p>\n      </div>\n      <!-- 배경 데코(라이트 스폿) -->\n      <div class=\"blob blob--1\"></div>\n      <div class=\"blob blob--2\"></div>\n    </section>\n\n    <!-- 3 Cards -->\n    <section class=\"section\">\n      <div class=\"container grid grid--3\">\n        <article class=\"card\" id=\"about\">\n          <h3>동아리 소개</h3>\n          <p>1999년부터 이어져 온 UW-Madison의 한인 비즈니스 커뮤니티입니다.</p>\n        </article>\n        <article class=\"card\" id=\"goals\">\n          <h3>동아리 활동</h3>\n          <p>세미나, 프로젝트, 케이스 스터디, 네트워킹, 피크닉 등 다양한 활동을 진행합니다.</p>\n        </article>\n        <article class=\"card\" id=\"instagram\">\n          <h3>인스타그램</h3>\n          <p>소식은 인스타 @kbsa 에서 확인해주세요.</p>\n          <a class=\"btn btn--soft\" href=\"#\" target=\"_blank\" rel=\"noopener\">바로가기</a>\n        </article>\n      </div>\n    </section>\n\n    <!-- 임원진 -->\n    <section class=\"section\" id=\"board\">\n      <div class=\"container\">\n        <h2 class=\"section__title\">임원진 소개</h2>\n        <div class=\"grid grid--4\">\n          <div class=\"card card--person\">\n            <img src=\"president.jpg\" alt=\"회장\" />\n            <h4>심의안</h4><p>회장</p>\n          </div>\n          <div class=\"card card--person\">\n            <img src=\"vp.jpg\" alt=\"부회장\" />\n            <h4>정다연</h4><p>부회장</p>\n          </div>\n          <!-- 필요만큼 반복 -->\n        </div>\n      </div>\n    </section>\n\n    <!-- 지원 섹션 -->\n    <section class=\"section\" id=\"apply\">\n      <div class=\"container card card--glass\">\n        <h2>지금 지원하기</h2>\n        <p>간단한 폼 작\n"
+        }
+    ]
+}

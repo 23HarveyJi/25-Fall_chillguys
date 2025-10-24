@@ -1,0 +1,50 @@
+/* style.css — HTML 태그 금지! CSS만 */
+/* style.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+  background: linear-gradient(to right,
+   red 15%,
+   white 15% 85%,
+   red 85%);
+  background-repeat: no-repeat;
+margin: 0;
+} 
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px; /* 텍스트와 사진 사이 간격 */
+}
+
+.text {
+  flex: 2; /* 텍스트 영역이 더 넓게 */
+}
+
+.jpg {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* 오른쪽 정렬 */
+}
+
+.kbsa.jpg {
+  width: 250px;  /* 크기 조정 */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+

@@ -1,0 +1,86 @@
+{
+    "sourceFile": "calculator.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1760125434203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760125441589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+<html lang\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125448073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n <!DOCTYPE html>\n-<html lang\n\\ No newline at end of file\n+<html lang=\"en\">\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125455551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n-    \n\\ No newline at end of file\n+    <head>\n+        <meta charset\n+    </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125462740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+    <head>\n+        <meta charset=\"UTF-8\" />\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\n+    </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125471566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,6 @@\n <html lang=\"en\">\n     <head>\n         <meta charset=\"UTF-8\" />\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\n-    </head>\n-<!DOCTYPE html>\n-<html lang=\"en\">\n-    <head>\n-        <meta charset\n+        \n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125485664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n     <head>\n         <meta charset=\"UTF-8\" />\n-        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\n-        \n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\n+\n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125493470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n     <head>\n         <meta charset=\"UTF-8\" />\n-        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+        <title>Document</title>\n \n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125503399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n     <head>\n         <meta charset=\"UTF-8\" />\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n         <title>Document</title>\n+        <link rel=\"stylesheet\" href=\"./style.css />\n \n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125512833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     <head>\n         <meta charset=\"UTF-8\" />\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n         <title>Document</title>\n-        <link rel=\"stylesheet\" href=\"./style.css />\n+        <link rel=\"stylesheet\" href=\"style.css>\n \n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125525940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,6 @@\n     <head>\n         <meta charset=\"UTF-8\" />\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n         <title>Document</title>\n-        <link rel=\"stylesheet\" href=\"style.css>\n-\n+        <link rel=\"stylesheet\" href=\"style.css\">\n     </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125532160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,8 @@\n         <meta charset=\"UTF-8\" />\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n         <title>Document</title>\n         <link rel=\"stylesheet\" href=\"style.css\">\n-    </head>\n\\ No newline at end of file\n+    </head>\n+    <body>\n+        \n+    </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125537834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n         <title>Document</title>\n         <link rel=\"stylesheet\" href=\"style.css\">\n     </head>\n     <body>\n-        \n+\n+        <div id=\"\"\n     </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125543743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n         <link rel=\"stylesheet\" href=\"style.css\">\n     </head>\n     <body>\n \n-        <div id=\"\"\n+        <div id=\"calculator\"></div>\n     </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125551398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,8 @@\n         <link rel=\"stylesheet\" href=\"style.css\">\n     </head>\n     <body>\n \n-        <div id=\"calculator\"></div>\n+        <div id=\"calculator\">\n+            <input id=\"display\"\n+        </div>\n     </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125558300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n     </head>\n     <body>\n \n         <div id=\"calculator\">\n-            <input id=\"display\"\n+            <input id=\"display\" re\n         </div>\n     </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125566299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,7 @@\n     <body>\n \n         <div id=\"calculator\">\n             <input id=\"display\" readonly>\n-            <\n+            <div id=\"\"\n         </div>\n     </body>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760125591526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+    <head>\n+        <meta charset=\"UTF-8\" />\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+        <title>Document</title>\n+        <link rel=\"stylesheet\" href=\"style.css\">\n+    </head>\n+    <body>\n+\n+        <div id=\"calculator\">\n+            <input id=\"display\" readonly>\n+            <div id=\"keys\">\n+                <button onclick=\"appendToDisplay('+')\">7</button>\n+            </div>\n+        </div>\n+    </body>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1760125434203,
+            "name": "Commit-0",
+            "content": "<!"
+        }
+    ]
+}

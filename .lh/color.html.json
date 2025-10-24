@@ -1,0 +1,66 @@
+{
+    "sourceFile": "color.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1760079224266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760079243762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,13 @@\n-<!\n\\ No newline at end of file\n+<!DOCTYPE html>\n+\n+    <!--Color-->\n+<!DOCTYPE html>\n+<html>\n+  <head>\n+    <title>My first website</title>\n+  </head>\n+\n+  <body style=\"background-color: rgb(170, 41, 41);\">\n+    <h1 style=\"color: blue;\">This is a blue heading</h1>\n+  </body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079275395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n <!DOCTYPE html>\n \n     <!--Color-->\n-<!DOCTYPE html>\n <html>\n   <head>\n     <title>My first website</title>\n   </head>\n \n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n+    \n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079284420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,8 @@\n   </head>\n \n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n-    \n+\n+    <h1>HELLO!!</h1>\n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079293105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,7 @@\n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n     <h1>HELLO!!</h1>\n+    <h1>HELLO!!</h1>\n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079311245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,8 @@\n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n     <h1>HELLO!!</h1>\n-    <h1>HELLO!!</h1>\n+    <h1>안녕하세여!</h1>\n+    <\n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079319365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n     <h1>HELLO!!</h1>\n     <h1>안녕하세여!</h1>\n-    <\n+    <h1>你好</h1>\n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079330753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,7 @@\n \n     <h1>HELLO!!</h1>\n     <h1>안녕하세여!</h1>\n     <h1>你好</h1>\n+    \n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079336785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,8 @@\n \n     <h1>HELLO!!</h1>\n     <h1>안녕하세여!</h1>\n     <h1>你好</h1>\n-    \n+\n+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit quaerat est qui dignissimos necessitatibus rerum maxime. Iste consequatur rerum, laboriosam porro nam, repellat nobis, commodi iusto veritatis minus rem.</p>\n   </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1760079398624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n-    <h1>HELLO!!</h1>\n+    <h1>HELLO!! </h1>\n     <h1>안녕하세여!</h1>\n     <h1>你好</h1>\n \n     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit quaerat est qui dignissimos necessitatibus rerum maxime. Iste consequatur rerum, laboriosam porro nam, repellat nobis, commodi iusto veritatis minus rem.</p>\n"
+                },
+                {
+                    "date": 1760079416286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n-    <h1>HELLO!! </h1>\n+    <h1>HELLO!!</h1>\n     <h1>안녕하세여!</h1>\n     <h1>你好</h1>\n \n     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit quaerat est qui dignissimos necessitatibus rerum maxime. Iste consequatur rerum, laboriosam porro nam, repellat nobis, commodi iusto veritatis minus rem.</p>\n"
+                },
+                {
+                    "date": 1760079422307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n   <body style=\"background-color: rgb(170, 41, 41);\">\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n-    <h1HELLO!!</h1>\n+    <h1 styelHELLO!!</h1>\n     <h1>안녕하세여!</h1>\n     <h1>你好</h1>\n \n     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit quaerat est qui dignissimos necessitatibus rerum maxime. Iste consequatur rerum, laboriosam porro nam, repellat nobis, commodi iusto veritatis minus rem.</p>\n"
+                },
+                {
+                    "date": 1760079617613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <h1 style=\"color: blue;\">This is a blue heading</h1>\n \n     <h1 style=\"color: aliceblue;\"> Hello!</h1>\n     <h1 style=\"color: aqua;>안녕하세여!</h1>\n-    <h1 style=\"color\";</h1>\n+    <h1 style=\"color: \";</h1>\n \n     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugit quaerat est qui dignissimos necessitatibus rerum maxime. Iste consequatur rerum, laboriosam porro nam, repellat nobis, commodi iusto veritatis minus rem.</p>\n   </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1760079224266,
+            "name": "Commit-0",
+            "content": "<!"
+        }
+    ]
+}

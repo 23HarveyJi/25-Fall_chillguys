@@ -1,0 +1,15 @@
+keys{
+
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: lightgray
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
